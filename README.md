@@ -11,7 +11,7 @@ Prerequisites
 
 
 #### `npm i`
-#### `node .\src\server.js` or npm run start
+#### `node .\src\server.js` or `npm run start`
 
 
 ## 🛠 Tech Stacks Used
