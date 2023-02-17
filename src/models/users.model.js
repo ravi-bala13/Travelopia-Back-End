@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 
 const userSchema = new mongoose.Schema( 
-
     {
         name: {type: String, required: true},
         email: {type: String, required: true, unique: true},
@@ -9,7 +8,6 @@ const userSchema = new mongoose.Schema(
         no_of_travellers: {type: Number, required: false},
         amount: {type: Number, required: false}
     }
-
 );
 
 
